@@ -1,0 +1,46 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: black;
+    color: aqua;
+}
+
+h1 {
+    color: rgb(255, 72, 0);
+}
+
+a {
+    color: orange;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+ul > li {
+    font-weight: bolder;
+    color: deepskyblue;
+}
+
+h1 + p {
+    background-color: black;
+    padding: 10px;
+    border-radius: 3px ;
+}
+
+ul li :hover{
+   color:rgb(253, 3, 3);
+    }
+
+    ul li :nth-child(3){
+        background-color: black;
+    }
+
+    p:not(:first-of-type){
+        text-decoration: underline;
+    }
+
+    p::first-letter{
+        font-size: 200%;
+        color: rgb(255, 183, 0);
+    }
